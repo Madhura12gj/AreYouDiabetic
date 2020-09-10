@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Diabetes Prediction Form</h3>
+
+      <div class="row">
+        <form action="/predict" method="POST" class="col s12 hoverable card">
+          <div class="input-field col s6">
+            <label for="Pregnancies">Pregnancies</label>
+            <input type="text" id="Pregnancies" name="Pregnancies" />(0-20)
+          </div>
+          <div class="input-field col s6">
+            <label for="Glucose">Glucose(Plasma glucose concentration) </label>
+            <input type="text" id="Glucose" name="Glucose" />(0-200)
+          </div>
+
+          <div class="input-field col s6">
+            <label for="BloodPressure">Blood Pressure(mmHg) </label>
+            <input type="text" id="BloodPressure" name="BloodPressure" />(0-125)
+          </div>
+
+          <div class="input-field col s6">
+            <label for="SkinThickness">Skin thickness(mm) </label>
+            <input type="text" id="SkinThickness" name="SkinThickness" />(0-100)
+          </div>
+
+          <div class="input-field col s6">
+            <label for="Insulin">Insulin Serum </label>
+            <input type="text" id="Insulin" name="Insulin" />(0-845)
+          </div>
+
+          <div class="input-field col s6">
+            <label for="BMI">BMI </label>
+            <input type="text" id="BMI" name="BMI" />(0-70)
+          </div>
+
+          <div class="input-field col s6">
+            <label for="DiabetesPedigree">Diabetes Pedigree function</label>
+            <input
+              type="text"
+              id="DiabetesPedigree"
+              name="DiabetesPedigree"
+            />(0-3)
+          </div>
+
+          <div class="input-field col s6">
+            <label for="Age">Age</label>
+            <input type="text" id="Age" name="Age" />(21-81)
+          </div>
+
+          <button
+            class="btn waves-effect waves-light blue right"
+            type="submit"
+            value="Submit"
+          >
+            Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
