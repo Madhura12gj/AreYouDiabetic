@@ -8,9 +8,10 @@
 ## Code and Resources used
 - **Languages used:** Python version 3.7, HTML  
 - **Packages:** pandas, numpy, sklearn, flask, json, pickle 
-- **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+- **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2 , https://www.geeksforgeeks.org/deploy-machine-learning-model-using-flask/
 - **For Web Framework Requirements:**  ```pip install -r requirements.txt```
 - **More about dataset:** https://www.kaggle.com/uciml/pima-indians-diabetes-database
+- **Youtube link referred:** https://www.youtube.com/watch?v=MpF9HENQjDo
 
 ## About Dataset
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage. Following are the features:
@@ -37,3 +38,9 @@ In this step, I built a flask API endpoint that was hosted on a local webserver 
 
 ## Building of Website
 Built a simple website having two files, index.html and results.html. The index file takes in all values from the user that are needed to predict in a form and the result is obtained on clicking the submit button in the result.html page.
+
+## Screenshots
+![](images/pageone.png)
+![](images/picturefour.png)
+![](images/page2.png)
+![](images/picturethree.png)
