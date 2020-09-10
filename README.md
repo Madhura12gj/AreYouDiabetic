@@ -1,9 +1,9 @@
 # Diabetes Prediction - Project Overview
-- Built a machine learning model to predict whether a person is diabetic or not.
-- Used the famous Pima Indian Diabetic dataset which involves certain diagnostic measurements for prediction.
-- Machine learning model uses the Logistic Regression algorithm to derive at a solution.
-- Built a client facing API using Flask.
-- Made a simple website for the user to predict the outcome easily.
+- This project uses a machine learning model to predict whether a person is diabetic or not.
+- It uses the famous Pima Indian Diabetic dataset which involves certain diagnostic measurements for prediction.
+- This machine learning model uses the Logistic Regression algorithm to derive at a solution.
+- This project has a client facing API using Flask built.
+- It also involves a simple website for the user to predict the outcome easily.
 
 ## Code and Resources used
 - **Languages used:** Python version 3.7, HTML  
