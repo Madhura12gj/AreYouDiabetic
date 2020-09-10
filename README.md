@@ -44,3 +44,8 @@ Built a simple website having two files, index.html and results.html. The index 
 ![](images/picturefour.png)
 ![](images/page2.png)
 ![](images/picturethree.png)
+
+## Setup Instructions
+1. This application needs Python version 3.7 to be installed in the system.
+2. Install all the required packages using ```pip install -r requirements.txt```
+3. To run the application run ```python app.py```
